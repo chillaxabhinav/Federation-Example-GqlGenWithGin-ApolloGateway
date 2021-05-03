@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	graph "reviews/graph"
 	"reviews/graph/generated"
+	graph "reviews/graph/resolvers"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/handler/extension"
