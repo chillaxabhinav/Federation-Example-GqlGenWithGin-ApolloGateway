@@ -1,0 +1,13 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+extend type Query {
+  topProducts: [Product]
+}
+
+type Product @key(fields: "upc") {
+  upc: String!
+  name: String!
+  price: Int!
+}
