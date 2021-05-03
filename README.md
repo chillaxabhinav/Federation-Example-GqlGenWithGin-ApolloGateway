@@ -6,7 +6,7 @@
   > go run server.go
 - Now open another terminal window and in that finally run the gateway using below command.
   > node server.js
-- Now open http://localhost:4000/, This you gateway endpoint and in that you can write graphql query as per the docs in the playground made by merging all graphql schemas of running go microservices making into a federated schema, allowing us to write graphql queries across multiple graphql microservices.
+- Now open http://localhost:4000/, This you gateway graphql endpoint for this you can write graphql query as per the docs in the playground made by merging all graphql schemas of running go graphql microservices making into a federated schema, allowing us to write and query across multiple graphql microservices.
 
 ## Libraries/Tech Used
 
