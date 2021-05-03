@@ -1,7 +1,7 @@
 ## How to run
 
 - First Install Node application inside "gateway" folder using below command.
-  > npm install
+  > yarn install
 - Then open 3 terminal windows and run all the go-gqlgen applications first inside "product", "reviews" and "user" folder in separate terminal windows using command below, these are acting as our graphql microservice application.
   > go run server.go
 - Now open another terminal window and in that finally run the gateway using below command.
@@ -15,7 +15,7 @@
   - gqlgen - https://gqlgen.com/
   - gin - https://gin-gonic.com/
 
-  Gin is wrapping gqlgen graphql application allowing us to hook multiple middlewares to the incoming request.
+  Gin is wrapping gqlgen graphql application allowing us to hook multiple middlewares to the incoming request like I have hooked a middleware for rate limiting.
 
 - Gateway - https://www.apollographql.com/docs/federation/
 
